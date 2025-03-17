@@ -1,7 +1,7 @@
  describe('Login com sucesso', () => {
     it('Deve fazer login com um usuário válido', () => {
       cy.visit('http://localhost:3000/login');
-      cy.get('#username').type('jonathasguilherme');
+      cy.get('#username').type('jessicascilio');
       cy.get('#password').type('test');
       cy.get('[data-test="signin-submit"]').click();
      });
