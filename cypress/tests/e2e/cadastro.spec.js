@@ -10,7 +10,7 @@ describe('Registro de novo usuário com sucesso', () => {
     });
     
   });
-git 
+
   describe('Tentar registrar um novo usuário com informações incompletas', () => {
     it('Deve exibir mensagens de erro ao tentar registrar um novo usuário sem preencher todas as informações obrigatórias', () => {
         cy.visit('http://localhost:3000/signup');
