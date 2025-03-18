@@ -12,7 +12,7 @@ describe('Enviar dinheiro com saldo suficiente', () => {
      });   
           
   });
-
+ 
   describe('Enviar dinheiro com saldo insuficiente', () => {
     it('Deve exibir mensagem de erro ao enviar dinheiro sem saldo suficiente', () => {
         cy.visit('http://localhost:3000/login');
